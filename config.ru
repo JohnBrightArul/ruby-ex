@@ -1,5 +1,4 @@
 require 'rack/lobster'
-
 map '/health' do
   health = proc do |env|
     [200, { "Content-Type" => "text/html" }, ["1"]]
@@ -239,7 +238,7 @@ pre {
 
 <section class='container'>
           <hgroup>
-            <h1>Welcome to your Ruby application on OpenShift</h1>
+            <h1>Welcome to your John application on OpenShift</h1>
           </hgroup>
 
 
